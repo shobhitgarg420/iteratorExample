@@ -1,6 +1,7 @@
 import java.util.*;
 public class iteratorExample {
 
+    //iterator program
     public static void main(String[] args) {
         List<Integer> numberList=new ArrayList<Integer>();
         numberList.add(1);
