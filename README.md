@@ -1,0 +1,1 @@
+this program is created to learn about Iterator. And speically about traversing forward and backward.
