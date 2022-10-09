@@ -22,7 +22,9 @@ public class InfixtoPostfix {
           - Else, if the element is an operator, then:
             - If the precedence of the top of the stack is less than the precedence of
               the element, or if the stack is empty, then push that element to the stack.
-            - Otherwise, pop the operator from the stack and add it to the answer until the precedence of the element is less than or equal to the precedence of the top of the stack.
+            - Otherwise, pop the operator from the stack and add it to the answer until
+              the precedence of the element is less than or equal to the precedence
+              of the top of the stack.
             - Repeat Step 1 till you reach the end of the given infix expression.
 
         If the stack is not empty, then pop the stack and add to the answer
